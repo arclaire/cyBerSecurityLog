@@ -21,3 +21,38 @@ Search engine for devices connected to the Internet:
 
 CVE > Common Vulnerabilities and Exposures
 
+LINUX COMMAND
+Search Files
+echo > print 
+echo > tryhackme 
+(one word no need inside quote)
+echo > "tryhackme success"
+
+ls > listing
+
+cat > content of file 
+
+cd > change directory 
+
+pwd > print working directory 
+
+grep > find specific string in file content  
+ex: grep "THM" access.log
+
+SHELL OPERATORS 
+& > will do process in background (copying big filesize)
+&& > combine list of commands
+> redirector overwrite content
+>> redirector append content
+
+Task
+To run a command in the background, what operator would we want to use = &
+
+Command to replace the contents of a file named "passwords" with the word "password123"
+echo password123 > passwords
+
+Command to add "tryhackme" to this file named "passwords" but also keep "passwords123"
+echo tryhackme >> passwords
+
+
+
