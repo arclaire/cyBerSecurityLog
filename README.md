@@ -40,9 +40,13 @@ grep > find specific string in file content
 ex: grep "THM" access.log
 
 SHELL OPERATORS 
-& > will do process in background (copying big filesize)
-&& > combine list of commands
+
+"&" > will do process in background (copying big filesize)
+
+"&&" > combine list of commands
+
 ">" redirector overwrite content
+
 ">>" redirector append content
 
 Task
