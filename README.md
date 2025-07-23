@@ -42,8 +42,8 @@ ex: grep "THM" access.log
 SHELL OPERATORS 
 & > will do process in background (copying big filesize)
 && > combine list of commands
-command > redirector overwrite content
-command >> redirector append content
+ > redirector overwrite content
+ >> redirector append content
 
 Task
 To run a command in the background, what operator would we want to use = &
